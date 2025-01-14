@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de BEKKA Walid</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="image/360_F_358298003_6CklLRBcmaTSEz0EA5J56xBaiC1IrZ4o.jpg" >
+    <script src="index.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+   <header>
+    <div class="content">
+      
+      <nav class="navbar">
+        <div class="logo">PORTFOLIO</div>
+        <div class="menu">
+          <a href="#a-propos">À PROPOS</a>
+          <a href="#projet">PROJET</a>
+          <div class="menu-item">COMPÉTENCES
+            <ul class="dropdown">
+              <li><a href="#html-css">HTML/CSS</a></li>
+              <li><a href="#javascript">JavaScript</a></li>
+              <li><a href="#php">PHP</a></li>
+            </ul>
+          </div>
+          <a href="#contact">CONTACT</a>
+        </div>
+      </nav>
+      <h1 id="titre_portfolio">Walid BEKKA</h1>
+      <span class="typed" data-typed-items="Etudiant">Étudiant en développement web ! </span>
+
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </header>
+
+
+
+  <section id="a-propos">
+    <h1 id="titre-lycee">Lycée Pierre Desgrange</h1>
+    <div id="contenu-a-propos">
+        <div id="cadre-bleu">
+            <img src="image/lycée.jpg" alt="Image descriptive" />
+        </div>
+        <div id="cadre-rouge">
+            <p>
+                Étudiant en BTS SIO (Services Informatique aux Organisations) option SLAM<br>
+                (Solution Logicielles et Application Métiers) au lycée Simone Weil à Saint-Priest-en-Jarez.<br>
+                Étant diplômé du lycée Pierre Desgrange d'un BAC professionnel en Système Numérique option C RISC qui est spécialisé dans les
+                réseaux numériques (informatiques et les réseaux de communication) ainsi que dans la fabrication et la
+                programmation de systèmes embarqués. J'ai décidé de me tourner vers le développement web et d'en faire
+                mon futur métier et c'est pour cela que je me suis intégré à ce BTS.
+                Je suis à votre disposition pour tout renseignement complémentaire. Je suis en recherche active de
+                stage.
+            </p>
+        </div>
+    </div>
+</section>
+     
+
+
+
+  <section id="projet">
+    <h1 id="titre-lycee">Projet</h1>
+    <div class="carousel-container">
+      <div class="carousel">
+          <div class="slide">
+              <img src="image/GLPI.png" alt="Image 1">
+              <button class="details-btn" onclick="showDetails(0)">Détails</button>
+              <div class="details-bubble" id="details-0">
+                  <p>GLPI est un logiciel open source pour la gestion des équipements informatiques et le support technique. Avec une machine virtuel sous Linux Debian 11 sans interface graphique j'ai crée une base de donnée.</p>                    
+                  <button class="close-btn" onclick="hideDetails(0)">Fermer</button>
+              </div>
+          </div>
+          <div class="slide">
+              <img src="image/wp2742456.png" alt="Image 2">
+              <button class="details-btn" onclick="showDetails(1)">Détails</button>
+              <div class="details-bubble" id="details-1">
+                  <p>J'ai crée un site web sur un thème en particulier en HTML et CSS. Après cela j'ai utiliser PHP pour crée une base de donnée.</p>
+                  <button class="close-btn" onclick="hideDetails(1)">Fermer</button>
+              </div>
+          </div>
+        
+          <div class="slide">
+              <img src="image/java-script-logoon-dark-background-aw286n669vxuej30.png" alt="Image 3">
+              <button class="details-btn" onclick="showDetails(2)">Détails</button>
+              <div class="details-bubble" id="details-2">
+                  <p>J'ai crée un portfolio en utilisant les langages HTML/CSS ainsi que Javascript</p>
+                  <button class="close-btn" onclick="hideDetails(2)">Fermer</button>
+              </div>
+          </div>
+        </div>
+        <button class="nav-btn prev" onclick="prevSlide()">&#10094;</button>
+        <button class="nav-btn next" onclick="nextSlide()">&#10095;</button>
+    </div>
+      </div>
+  </div>
+  </section>
+  
+<section id="compétences">
+ <h1 id="titre-lycee">Compétences</h1>
+ <section class="skills-section">
+  <div class="skills-grid">
+      <div class="skill-card">
+          <i class="fas fa-tasks skill-icon"></i>
+          <h3>Langage HTML / CSS</h3>
+          <p>
+            J'ai appris à développer en HTML/CSS lorsque j'étais en première année de mon BAC professionnel Système Numérique. J'ai dû crée une page web sur l'intélligence artificiel. Lors de ce projet là, j'ai pu acquérir des compétences en HTML/CSS. Malgré que je ne maîtrise pas ce langage à 100%, il me reste beaucoup de chose à apprendre sur ce langage.
+          </p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-laptop-code skill-icon"></i>
+          <h3>Langage JavaScript</h3>
+          <p>
+            Au cours de mon BTS SIO option SLAM, j'ai pu en apprendre devantage sur le JavaScript, je ne maitrîse pas ce langage aussi, j'en ai encore beaucoup à apprendre. 
+          </p>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-server skill-icon"></i>
+          <h3>Langage PHP</h3>
+          <p>
+            Au cours de mon BTS SIO option SLAM, j'ai pu en apprendre devantage sur le PHP, je ne maitrîse pas ce langage aussi, j'en ai encore beaucoup à apprendre. 
+          </p>
+      </div>
+      
+</section>
+
+
+</section>
+      <section id="contact">
+        <div class="container">
+          <div class="contact-form">
+            <h2>Contactez moi !</h2>
+            
+            <form action="https://formsubmit.co/walidbekka345@gmail.com" method="POST">
+              <input type="text" name="name" placeholder="Votre Nom" required>
+              <input type="email" name="email" placeholder="Votre Email" required>
+              <input type="text" name="subject" placeholder="Sujet" required>
+              <textarea name="message" placeholder="Message" rows="5" required></textarea>
+              <button type="submit">Envoyer</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h2>Entrons en contact</h2>
+            <hr>
+            <p>Vous avez besoin de plus de renseignements alors contactez moi !</p>
+            <ul>
+                <li><i class="fa fa-map-marker-alt"></i> Saint-Etienne</li>
+                <li><i class="fa fa-phone-alt"></i> 06 36 06 20 20</li>
+                <li><i class="fa fa-envelope"></i> walidbekka345@gmail.com</li>
+              </ul>              
+          </div>
+        </div>
+      </section>
+      
+  </section>
+
+</body>
+</html>
